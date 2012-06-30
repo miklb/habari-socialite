@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pluggable type="plugin">
+	<name>Socialite for Habari</name>
+	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License 2.0</license>
+	<author url="http://miklb.com">Michael Bishop</author>
+	<version>0.1</version>
+	<url>http://miklb.com/</url>
+	<description><![CDATA[Use the <a href="https://github.com/dbushell/Socialite">Socialite</a> library for social sharing buttons.]]></description>
+	<copyright>2012</copyright>
+	<guid>d269261c-541b-4a8b-acbb-751d19b62a9a</guid>
+</pluggable>
