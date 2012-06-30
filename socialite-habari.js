@@ -1,3 +1,3 @@
 $(document).ready(function() {
- 	Socialite.load('.entry');
+ 	Socialite.load('.socialite');
  });
