@@ -5,7 +5,7 @@
  * Socialite Plugin adds common social sharing buttons to posts.
  *
  * Usage:
- * <code> echo $theme->socialite($post);</code>
+ * <code> echo $theme->display('socialite');</code>
  */
 
 class Socialite extends Plugin {
@@ -13,7 +13,7 @@ class Socialite extends Plugin {
 	public function help() {
 
 		$help = _t( 'This plugin adds Twitter, Google+, Facebook and LinkedIn sharing buttons in theme templates. Currently the only configuration
-			is adding Twitter account for a via link. To add the buttons, insert <code> echo $theme->socialite($post);</code>
+			is adding Twitter account for a via link. To add the buttons, insert <code> echo $theme->display(\'socialite\');</code>
 			into the template(s) you\'d like them to appear' );
 		
 		return $help;
